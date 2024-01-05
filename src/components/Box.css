@@ -1,0 +1,205 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+/* LinkedInSidebar.css */
+.linkedin-sidebar {
+  width: 250px;
+  height: 52%;
+  background-color: #f3f2ef;
+  /* padding: 20px; */
+  margin-top: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.4);
+  border-color: #747474;
+}
+
+.profile-section {
+  text-align: center;
+}
+
+.profile-picture {
+    margin-top: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.profile-name {
+    cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+  font-size: 18px;
+}
+
+.profile-name:hover{
+    text-decoration: underline;
+}
+
+.profile-title {
+  font-size: 14px;
+  color: #666;
+}
+
+.nav-links {
+    width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .nav-link:hover{
+    background-color: rgb(179, 179, 179);
+
+} */
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+background-color: #a0a0a1;
+  color: #0073b1; /* LinkedIn's primary color */
+}
+
+.views-impression{
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 10px; */
+    
+    /* box-shadow: 0 0 1px 0 rgba(0,0,0,0.4); */
+    /* space-x: 10px; */
+}
+
+.view-impression{
+    width: 100%;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.4);
+}
+
+.views{
+    font-size: 13px;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-weight: 100px;
+    color: #747474;
+    padding-top: 10;
+    margin-top: 0px;
+    align-self: center;
+    
+}
+.views-1{
+    font-size: 13px;
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    font-weight: 100px;
+    color: #747474;
+    /* padding-top: 10; */
+    text-align: right;
+    color: #1f15a1;
+    margin-top: 4px;
+}
+
+.views-impression:hover{
+
+    cursor: pointer;
+    background-color: rgb(179, 179, 179);
+}
+
+.impression{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-weight: 100px;
+    color: #747474;
+    padding-top: 0px;
+}
+
+.impression:hover{
+    cursor: pointer;
+    background-color: rgb(179, 179, 179);
+}
+
+.premium{
+    width:100%;
+    border: #484444;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.4); 
+}
+
+.premium:hover{
+    cursor: pointer;
+    background-color: rgb(179, 179, 179);
+
+}
+
+.info-text{
+    text-align: left;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.premium-text{
+    font-weight: bold;
+    text-align: left;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.premium-text:hover{
+    cursor: pointer;
+    color: rgb(24, 94, 235);
+}
+
+.bookmark{
+    width: 100%;
+}
+
+.bookmark-1{
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    
+}
+
+.bookmark-image{
+    height: 20px;
+    width: 20px;
+    align-items: left;
+    margin-right: 5px;
+    
+}
